@@ -5,6 +5,7 @@
 
 :root {
     font-size: calc(0.625rem + 0.4vw); ;
+    color: white;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     grid-column: 1/2;
     display: grid;
     grid-template-rows: auto auto 1fr;
+    background-color: #16a34a;
 }
 
 .header{
@@ -28,6 +30,16 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.primaryButtons ul li img {
+    filter: invert(100%) sepia(5%) saturate(4996%) hue-rotate(343deg) brightness(123%) contrast(103%);
+
+}
+
+.secondaryButtons ul li img {
+    filter: invert(100%) sepia(5%) saturate(4996%) hue-rotate(343deg) brightness(123%) contrast(103%);
+
 }
 
 .sidebar ul li {
@@ -55,4 +67,6 @@ ul {
 
 #dashboard{
     height: 3rem;
+    filter: invert(100%) sepia(5%) saturate(4996%) hue-rotate(343deg) brightness(123%) contrast(103%);
+
 }
